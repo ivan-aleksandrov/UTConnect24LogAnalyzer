@@ -40,6 +40,7 @@ rl.on('close', function () {
 	if (cnt > 0) {
 		console.log(current + ' comes --> ' + cnt + ' times');
 	}
+	console.log('\r\nTotal count of requests --> ' + arrayOne.length);
 });
 
 // example output:
